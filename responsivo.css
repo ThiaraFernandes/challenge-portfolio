@@ -1,0 +1,153 @@
+
+/* Estilos para telas menores a 768px */
+@media (max-width: 768px) {
+    /* Estilos para o menu */
+    .menu {
+        padding: 20px ; 
+        display: flex;
+    }
+
+    .menu__title {
+        font-size: 30px; 
+        margin: auto;  
+    }
+
+    .menu__list{
+        display: none;
+        
+    }
+
+    /* Estilos para o título */
+    .title {
+        padding: 100px 0; 
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .title__div{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .title__bio {
+        font-size: 28px;   
+    }
+
+    .title__subsection {
+        font-size: 18px; 
+        max-width: 60%;
+    }
+
+    .title__network {
+        margin-top: 30px; 
+        /* max-width: 70%; */  
+    }
+
+    .title__profile {
+        width: 150px; 
+        height: 150px;
+    }
+
+    /* Estilos para a seção de Experiência Profissional/Projetos */
+    .experience {
+        display: block;
+    }
+   
+    .experience__section__title {
+        font-size: 32px; 
+    }
+
+    .experiencie__box{
+        display: block; 
+        
+    }
+
+    .experiencie__box.invert{
+        display: block;
+    }
+
+    .experience__img{
+        max-width: 95%;
+        margin-bottom: 15px;
+        height: 300px;
+    }
+
+    .experience__info{
+       display: flex;
+       align-items: flex-start;
+       margin-left: 10px;  
+    }
+
+    .experience__title {
+        font-size: 20px; 
+        text-align: center;
+    }
+
+    .experience__text {
+        font-size: 16px; 
+        text-align: left;
+    }
+
+    /* Estilos para a seção de Contato */
+
+    .formcontato__contacto {
+        flex-direction: row; 
+    }
+
+    .formcontato--esquerda {
+        display: none;
+    }
+
+    .formcontato__img {
+        display: none;
+    }
+
+    .formcontato__text{
+        margin: 0;
+        width: 100%;
+    }
+
+    .formcontato__title {
+        font-size: 32px; 
+    }
+
+    .formcontato__input,
+    .formcontato__textarea {
+        width: 100%; 
+    }
+
+    .formcontato__botao {
+        padding: 15px 30px; 
+        font-size: 18px; 
+    }
+
+    /* Estilos para o rodapé */
+    .footer {
+        padding: 20px 50px; 
+    }
+}
+
+/* Estilos para telas menores a 425px */
+@media (max-width: 425px) {
+    /* Estilos para a seção de skills */
+    .skills__box{
+       display: flex;
+       align-items: center;
+       justify-content: center; 
+    }
+
+    /* Estilos para a seção de Hobbies */
+    .hobbies__line{
+        max-width: 100%;
+        flex-direction: row;
+    }
+
+    .hobbies__box li img{
+        display: flex;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        gap: 15px;
+    }
+    
+}
